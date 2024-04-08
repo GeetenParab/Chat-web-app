@@ -4,7 +4,7 @@ const useConversation = create((set,get)=>({
     selectedConversation:null,
     setSelectedConversation: (selectedConversation) =>set({selectedConversation}),
     messages:[],
-    setMessages:(messages)=>ServiceWorker({messages}),
+    setMessages:(messages)=>set({messages}),
 }));
 
 
